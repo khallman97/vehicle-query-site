@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f9f9f9; 
+    
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.title {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+.list li {
+margin-bottom: 10px;
+}
+
+.list li strong {
+color: #333;
+}

@@ -1,0 +1,29 @@
+.title {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px; 
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    width: 13%;
+  }
+
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;  
+}
+
+.slider {
+    width: 100%;
+    margin: 0 8px;
+  }
+  
+.rangeValues {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}

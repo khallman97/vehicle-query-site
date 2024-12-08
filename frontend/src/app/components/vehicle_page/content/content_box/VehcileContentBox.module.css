@@ -1,0 +1,13 @@
+.boxContent {
+    margin-bottom: 15px;
+    padding: 20px;
+    border:1px solid #ddd;
+    border-radius: 20px; 
+    background-color: #E9ECEF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.boxContent:hover {
+    transform: scale(1.01);  
+    background-color: #06BEE1;
+}
