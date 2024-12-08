@@ -34,7 +34,7 @@ COPY --from=builder /app/frontend/public ./public
 COPY --from=builder /app/frontend/package.json ./package.json
 
 # Install only production dependencies
-RUN npm install --production
+RUN npm install --omit=dev
 
 # Expose the application port
 EXPOSE 3000
